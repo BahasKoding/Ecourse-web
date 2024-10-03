@@ -10,7 +10,6 @@
     "build:css": "tailwindcss -i ./styles.css -o ./dist/styles.min.css --minify",
     "minify-html": "html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true -o index.min.html ecourse-coding.html",
     "build": "npm run build:css && npm run minify-html"
-    
   },
   "name": "ecourse",
   "version": "1.0.0",
