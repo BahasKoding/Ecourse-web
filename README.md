@@ -25,7 +25,7 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository
    ```
-   git clone https://github.com/your-username/ecourse-web-development.git
+   git clone https://github.com/BahasKoding/ecourse-web-development.git
    ```
 
 2. Navigate to the project directory
@@ -102,7 +102,7 @@ Untuk menjalankan salinan lokal, ikuti langkah-langkah berikut:
 
 1. Klon repositori
    ```
-   git clone https://github.com/username-anda/ecourse-web-development.git
+   git clone https://github.com/BahasKoding/ecourse-web-development.git
    ```
 
 2. Masuk ke direktori proyek
