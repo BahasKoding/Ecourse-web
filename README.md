@@ -1,25 +1,25 @@
-# Ecourse Web Development
+# 🚀 Landing Page Ecourse | BahasKoding
 
 This repository contains the landing page for our comprehensive web development online course. The course is designed to take students from complete beginners to job-ready developers through six comprehensive modules.
 
-## Features
+## ✨ Features
 
-- Responsive design
-- Interactive curriculum overview
-- Student testimonials
-- Pricing plans
-- FAQ section
-- Registration form
-- Promo modal
+- 📱 Responsive design
+- 🧠 Interactive curriculum overview
+- 🗣️ Student testimonials
+- 💰 Pricing plans
+- ❓ FAQ section
+- 📝 Registration form
+- 🎉 Promo modal
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- HTML5
-- Tailwind CSS
-- JavaScript
-- Font Awesome icons
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="20" height="20"> HTML5
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" width="20" height="20"> Tailwind CSS
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" height="20"> JavaScript
+- <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/font-awesome.svg" width="20" height="20"> Font Awesome icons
 
-## Getting Started
+## 🚦 Getting Started
 
 To get a local copy up and running, follow these steps:
 
@@ -38,122 +38,114 @@ To get a local copy up and running, follow these steps:
    npm install
    ```
 
-4. Install development dependencies
+4. Install Tailwind CSS
    ```
-   npm install -D tailwindcss postcss autoprefixer html-minifier
+   npm install -D tailwindcss
    ```
 
 5. Initialize Tailwind CSS
    ```
-   npx tailwindcss init -p
+   npx tailwindcss init
    ```
 
-6. Update `tailwind.config.js` file in your project root:
-   ```javascript
-   module.exports = {
-     purge: ['./**/*.html'],
-     darkMode: false,
-     theme: {
-       extend: {},
-     },
-     variants: {
-       extend: {},
-     },
-     plugins: [],
-   }
+6. Run Tailwind CSS in watch mode
+   ```
+   npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
    ```
 
-7. Create or update `styles.css` file in your project root:
-   ```css
-   @tailwind base;
-   @tailwind components;
-   @tailwind utilities;
-   ```
+This command will compile your Tailwind CSS file and watch for changes, automatically updating the output file when you make changes to your HTML or CSS.
 
-8. Update your `package.json` with the following scripts:
-   ```json
-   "scripts": {
-     "build:css": "tailwindcss -i ./styles.css -o ./dist/styles.min.css --minify",
-     "minify-html": "html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true -o index.min.html ecourse-coding.html",
-     "build": "npm run build:css && npm run minify-html"
-   }
-   ```
+## 🚀 Deployment
 
-9. Run the build process
-   ```
-   npm run build
-   ```
+To deploy your site, you can use GitHub Pages or any other static site hosting service. Make sure to build your CSS file before deployment:
 
-10. The optimized files will be:
-    - `./dist/styles.min.css` (minified CSS)
-    - `index.min.html` (minified HTML)
+```
+npx tailwindcss -i ./src/input.css -o ./src/output.css --minify
+```
 
-## Optimization Steps
-
-1. Minify HTML:
-   - This is handled by the `minify-html` script in `package.json`.
-
-2. Optimize images:
-   - Use a tool like ImageOptim or TinyPNG to compress images without significant quality loss.
-   - Consider using WebP format for better compression.
-
-3. Lazy load images:
-   - Add `loading="lazy"` attribute to `<img>` tags that are below the fold.
-
-4. Optimize fonts:
-   - Use `font-display: swap` for custom fonts.
-   - Consider using system fonts instead of custom fonts where possible.
-
-5. Remove unused CSS:
-   - Tailwind's purge option in `tailwind.config.js` handles this.
-
-## Deployment to GitHub Pages
-
-1. Create a new repository on GitHub.
-
-2. Initialize git in your local project folder (if not already done):
-   ```
-   git init
-   ```
-
-3. Add your files to git:
-   ```
-   git add .
-   ```
-
-4. Commit your changes:
-   ```
-   git commit -m "Initial commit"
-   ```
-
-5. Add your GitHub repository as a remote:
-   ```
-   git remote add origin https://github.com/your-username/your-repo-name.git
-   ```
-
-6. Push your code to GitHub:
-   ```
-   git push -u origin main
-   ```
-
-7. Rename `index.min.html` to `index.html`:
-   ```
-   mv index.min.html index.html
-   ```
-
-8. In your GitHub repository settings, navigate to the "Pages" section.
-
-9. Under "Source", select the branch you want to deploy (usually `main`).
-
-10. Click "Save". GitHub will provide you with a URL where your site is published.
-
-## Maintenance
+## 🔧 Maintenance
 
 To update your site:
 
-1. Make changes to `ecourse-coding.html` or `styles.css`.
-2. Run `npm run build` to regenerate optimized files.
-3. Rename `index.min.html` to `index.html`.
-4. Commit and push changes to GitHub.
+1. Make changes to your HTML or CSS files.
+2. The watch command will automatically update your output CSS file.
+3. Commit and push changes to GitHub.
 
 Remember to update this README as your project evolves. Good luck with your Ecourse Web Development landing page!
+
+---
+
+# 🚀 Landing Page Ecourse | BahasKoding (Bahasa Indonesia)
+
+Repositori ini berisi halaman landing untuk kursus online pengembangan web komprehensif kami. Kursus ini dirancang untuk membawa siswa dari pemula hingga menjadi pengembang yang siap kerja melalui enam modul komprehensif.
+
+## ✨ Fitur
+
+- 📱 Desain responsif
+- 🧠 Ikhtisar kurikulum interaktif
+- 🗣️ Testimoni siswa
+- 💰 Paket harga
+- ❓ Bagian FAQ
+- 📝 Formulir pendaftaran
+- 🎉 Modal promo
+
+## 🛠️ Teknologi yang Digunakan
+
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="20" height="20"> HTML5
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" width="20" height="20"> Tailwind CSS
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" height="20"> JavaScript
+- <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/font-awesome.svg" width="20" height="20"> Ikon Font Awesome
+
+## 🚦 Memulai
+
+Untuk menjalankan salinan lokal, ikuti langkah-langkah berikut:
+
+1. Klon repositori
+   ```
+   git clone https://github.com/username-anda/ecourse-web-development.git
+   ```
+
+2. Masuk ke direktori proyek
+   ```
+   cd ecourse-web-development
+   ```
+
+3. Instal dependensi
+   ```
+   npm install
+   ```
+
+4. Instal Tailwind CSS
+   ```
+   npm install -D tailwindcss
+   ```
+
+5. Inisialisasi Tailwind CSS
+   ```
+   npx tailwindcss init
+   ```
+
+6. Jalankan Tailwind CSS dalam mode watch
+   ```
+   npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+   ```
+
+Perintah ini akan mengompilasi file Tailwind CSS Anda dan memantau perubahan, secara otomatis memperbarui file output ketika Anda membuat perubahan pada HTML atau CSS Anda.
+
+## 🚀 Deployment
+
+Untuk men-deploy situs Anda, Anda dapat menggunakan GitHub Pages atau layanan hosting situs statis lainnya. Pastikan untuk membangun file CSS Anda sebelum deployment:
+
+```
+npx tailwindcss -i ./src/input.css -o ./src/output.css --minify
+```
+
+## 🔧 Pemeliharaan
+
+Untuk memperbarui situs Anda:
+
+1. Buat perubahan pada file HTML atau CSS Anda.
+2. Perintah watch akan secara otomatis memperbarui file CSS output Anda.
+3. Commit dan push perubahan ke GitHub.
+
+Ingatlah untuk memperbarui README ini seiring berkembangnya proyek Anda. Semoga sukses dengan halaman landing Ecourse Pengembangan Web Anda!
